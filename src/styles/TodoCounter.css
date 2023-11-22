@@ -1,2 +1,37 @@
+:root {
+    --background: #f8efe3;
+    --color-template: #f8f8f8;
+    --text-input: #aaaaaa;
+    --light-green: #acdcbc;
+    --dark-element: #555555;
+    --sm: 16;
+    --md: 24;
+    --lg: 32;
+}
 
+.titulo-container{
+    text-align: center;
+}
 
+.titulo-1, .titulo-2{
+    display: inline-block;
+    text-align: center;
+    /* font-size: var(--lg); */
+}
+
+.titulo-1{
+    color: var(--text-input);
+    font-weight: 500;
+}
+
+.titulo-2{
+    color: var(--dark-element);
+    background-color: var(--light-green);
+    border-radius: 50;
+    font-weight: 700;
+}
+
+.completed{
+    background-color: var(--light-green);
+    color: var(--dark-element)
+}
