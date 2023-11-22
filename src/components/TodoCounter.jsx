@@ -1,15 +1,19 @@
 // const estilos = {
 //   backgroundColor: 'red'
 // };
-import '../styles/TodoCounter.css';
+import '../styles/estilos.css';
 
 function TodoCounter({total, completed}) {  
 
   return(
       // <h1 style={estilos}>
-      <h1> 
-        Has completado {completed} de {total} ToDos
-      </h1>
+      <>
+        <div>Todo</div>
+        <div>Machine</div>
+        <h1> 
+          Has completado {completed} de {total} ToDos
+        </h1>
+      </>
     );
   }
 //   export default TodoCounter;

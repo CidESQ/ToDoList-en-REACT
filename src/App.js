@@ -1,6 +1,6 @@
-import {TodoCounter, TodoSearch, TodoList, TodoItem, CreateTodoButton} from './components/index.js';
-
 import React from 'react';
+import './styles/estilos.css'
+import {TodoCounter, TodoSearch, TodoList, TodoItem, CreateTodoButton} from './components/index.js';
 
 const defaultTodos = [
   {text: 'Cortar cebolla', completed: false},
@@ -12,8 +12,8 @@ const defaultTodos = [
 
 function App() {
   return (
-    // <div className="App">
     <>
+
       <TodoCounter completed={16} total = {23}/> 
 
       <TodoSearch/>
@@ -29,11 +29,9 @@ function App() {
 
       <CreateTodoButton/>
 
-      </>
-    // </div>
+    </>
   );
 }
 
 
 export default App;
-// export default TodoItem;
